@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Root package for LMS Project",
   "scripts": {
-    "dev": "npm run dev --prefix client",
-    "install-all": "npm install --prefix client && npm install --prefix server"
+    "dev": "npm run dev --prefix frontend",
+    "install-all": "npm install --prefix frontend && npm install --prefix backend"
   }
 }
